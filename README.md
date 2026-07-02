@@ -30,7 +30,38 @@ Clone the repository:
 
 ```bash
 git clone <repository-url>
-cd testOnsettoPython
+cd <project>
+```
+## 🛠️ Environment Setup
+
+Follow these steps to create and activate an isolated Python virtual environment for this project.
+
+###  Create the Virtual Environment
+
+Open your terminal, navigate to the project root directory, and run the command for your operating system:
+
+```bash
+# macOS / Linux
+python3 -m venv .venv
+
+# Windows
+python -m venv .venv
+```
+*(Note: `.venv` is the folder where your environment dependencies will be stored).*
+
+###  Activate the Environment
+
+You must activate the virtual environment before installing packages or running scripts.
+
+```bash
+# macOS / Linux (Bash/Zsh)
+source .venv/bin/activate
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Windows (Command Prompt)
+.venv\Scripts\activate.bat
 ```
 
 Install the required packages:
